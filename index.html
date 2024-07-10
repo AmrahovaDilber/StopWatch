@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-r from-purple-500 via-blue-300 to-green-500">
+    <div class="w-[500px] h-[300px] mx-auto mt-20 p-6 rounded-lg bg-black">
+      <div class="flex justify-center items-center flex-col">
+        <div class="text-5xl font-semibold text-white font-bold mt-10"
+        id="displayTime">00:00:00</div>
+
+        <div class="w-[200px] flex justify-between mt-24">
+          <button
+          id="stopBtn"
+            class="rounded-full text-black size-[50px] bg-gray-300 text-lg text-black"
+          >
+            <i class="fa-solid fa-stop"></i>
+          </button>
+          <button
+          id="startBtn"
+            class="rounded-full text-black size-[50px] bg-gray-300 text-lg text-black"
+          >
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button
+          id="restartBtn"
+            class="rounded-full text-black size-[50px] bg-gray-300 text-lg text-black"
+          >
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
